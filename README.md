@@ -4,7 +4,7 @@
 
 A method for making any invisible or abstract mechanism genuinely understandable — by turning it into a small, transparent, **runnable** artifact where the *real* thing happens in front of you: animated, pokeable, and readable all the way down to the source.
 
-It started life as a [Claude Code](https://claude.com/claude-code) skill. But the idea isn't Claude's, and it isn't even about code. It's a way of teaching anything you can't directly see — a network protocol, an algorithm, a data structure, a distributed-systems handshake, a memory model, a state machine. A person can follow it. Any AI agent can follow it. It's just a method.
+It's packaged as an installable skill, but the idea isn't about any one tool — and it isn't even about code. It's a way of teaching anything you can't directly see: a network protocol, an algorithm, a data structure, a distributed-systems handshake, a memory model, a state machine. A person can follow it. Any AI agent can follow it. It's just a method.
 
 > The one non-negotiable rule: **every pixel is backed by the real thing.** The animation is driven by the actual mechanism running, and the source is readable enough to confirm it. The instant any part is faked, the artifact stops teaching and starts lying.
 
@@ -23,12 +23,11 @@ Plus: multiple concrete scenarios on one engine.
 ## Use it however you like
 
 - **As a way of thinking / a checklist.** Next time you have to explain something invisible, run the seven pillars instead of reaching for slides and hand-waving.
-- **As a prompt for any AI agent.** Hand the method (or [`SKILL.md`](./SKILL.md)) to any capable model and ask it to build a glass box of your concept. Nothing here is Claude-specific.
-- **As a Claude Code skill.** Drop it in and it auto-triggers:
+- **As a prompt for any AI agent.** Hand the method (or [`SKILL.md`](./SKILL.md)) to any capable model and ask it to build a glass box of your concept. Nothing here is tool-specific.
+- **As an installable skill.** It drops into whatever coding agent or editor you use:
   ```bash
-  git clone https://github.com/oxfern/glassbox ~/.claude/skills/glassbox
+  npx skills add oxfern/glassbox
   ```
-  Then ask Claude *"show me exactly what X does"* / *"make it alive"*, or run `/glassbox`.
 
 ## Reference build
 

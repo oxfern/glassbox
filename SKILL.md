@@ -23,7 +23,7 @@ When someone wants to *understand* a mechanism they can't see — what's happeni
 
 The non-negotiable rule: **every pixel is backed by the real thing.** The animation is driven by genuine events from the actual mechanism running, and the source is readable enough that the learner can open it and see the real thing in plain code. The moment any part is faked, the artifact stops teaching and starts lying.
 
-This skill is the method, not a topic. The exemplar that birthed it is an SSE explainer at `/Users/lou/gts/sse-playground` (published at github.com/lmist/ssexperience) — study its *shape*, never copy its subject.
+This is the method, not a topic. It was distilled from a real build — a live, zero-dependency explainer of Server-Sent Events (an animated producer → server → client diagram, a terminal per party, a raw-wire view, drop/reconnect controls, narration, several scenarios). Study its *shape*, never copy its subject.
 
 ## The seven pillars (the recipe)
 
